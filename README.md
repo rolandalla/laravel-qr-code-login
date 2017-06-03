@@ -3,7 +3,6 @@
 [Check our article ](http://www.rolandalla.com/laravel-login-qr-code/) 
 
 ##Check how it works on youtube :
-[![Laravel QR Code generator and login](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=PZjzAgGticE)
 [![Laravel QR Code generator and login](https://img.youtube.com/vi/PZjzAgGticE/0.jpg)](https://www.youtube.com/watch?v=PZjzAgGticE)
 
 ## Starter Site based on on Laravel 5.4 
