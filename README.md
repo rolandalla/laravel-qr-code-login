@@ -1,6 +1,11 @@
 
 # Laravel Framework 5.4 ,Sentinel,Crud Generator ,Qr Code Login
 [Check our article ](http://www.rolandalla.com/laravel-login-qr-code/) 
+
+##Check how it works on youtube :
+
+[![Laravel QR Code generator and login](https://i.ytimg.com/vi/PZjzAgGticE/hqdefault.jpg)](https://www.youtube.com/watch?v=PZjzAgGticE"Laravel QR Code generator and login")
+
 ## Starter Site based on on Laravel 5.4 
 * [Features](#feature1)
 * [Requirements](#feature2)
@@ -173,5 +178,6 @@ php artisan crud:generate Posts --fields="title:string:required, body:text:requi
 If you are interested in  CRUD Generator then visit below links for more commands
 [Crud Generator](https://github.com/roladn/laravelcrud#commands)
 [Read Step by step integration ](http://www.rolandalla.com/laravel-login-qr-code/)
-![Youtube VIDEO ](https://www.youtube.com/watch?v=PZjzAgGticE) 
+
+
 
