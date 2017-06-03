@@ -1,6 +1,6 @@
 
 # Laravel Framework 5.4 ,Sentinel,Crud Generator ,Qr Code Login
-[Check our article ](http://www.rolandalla.com/laravel-5-4-advanced-starter/) 
+[Check our article ](http://www.rolandalla.com/laravel-login-qr-code/) 
 ## Starter Site based on on Laravel 5.4 
 * [Features](#feature1)
 * [Requirements](#feature2)
