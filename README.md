@@ -173,5 +173,5 @@ php artisan crud:generate Posts --fields="title:string:required, body:text:requi
 If you are interested in  CRUD Generator then visit below links for more commands
 [Crud Generator](https://github.com/roladn/laravelcrud#commands)
 [Read Step by step integration ](http://www.rolandalla.com/laravel-login-qr-code/)
-https://www.youtube.com/watch?v=PZjzAgGticE
+![Youtube VIDEO ](https://www.youtube.com/watch?v=PZjzAgGticE) 
 
