@@ -142,13 +142,12 @@ This is free software distributed under the terms of the MIT license
 
 Inspired by Laravel 5.4 and based on:
 [Crud Generator](https://github.com/roladn/laravelcrud)
-[Gentelella Dashboard](https://goo.gl/NI1sGa)
-[Sentinel Authentication](https://cartalyst.com/manual/sentinel/2.0)
+[Laravel Starter ](https://github.com/roladn/laravel-sentinel-crud-starter)
 ----
 <a name="feature8"></a>
 ##How Starter Site is look like
 
-![Index](http://i63.tinypic.com/315onf8.png)
+![Qr Code Sacaning](http://i64.tinypic.com/am6s7m.png)
 ![Login](http://i64.tinypic.com/23vku8w.png)
 ![Register new user](http://i63.tinypic.com/21jaybp.png)
 ![Admin dashboard](http://i66.tinypic.com/a4bj9l.png)
@@ -156,27 +155,10 @@ Inspired by Laravel 5.4 and based on:
 ![Perrmissons user/role ](http://i67.tinypic.com/35jgn52.png)
 
 ----
-<a name="feature9"></a>
-## Crud Generator
-Note: You should have configured database for this operation.
 
-## Commands
 
-#### Crud command:
-
-```
-php artisan crud:generate Posts --fields="title:string, body:text"
-```
-
-You can also easily include route, set primary key, set views directory etc through options **--route**, **--pk**, **--view-path** as belows:
-
-```
-php artisan crud:generate Posts --fields="title:string:required, body:text:required" --route=yes --pk=id --view-path="admin" --namespace=Admin --route-group=admin
-```
-
-If you are interested in  CRUD Generator then visit below links for more commands
-[Crud Generator](https://github.com/roladn/laravelcrud#commands)
+Read More From my Plog Post
 [Read Step by step integration ](http://www.rolandalla.com/laravel-login-qr-code/)
-
+http://www.rolandalla.com/laravel-login-qr-code/
 
 
