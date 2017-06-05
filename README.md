@@ -56,10 +56,10 @@
 -----
 <a name="step1"></a>
 ### Step 1: Get the code - Download the repository
-	https://github.com/roladn/laravel-sentinel-crud-starter/archive/master.zip 
+	https://github.com/roladn/laravel-qr-code-login/archive/master.zip
     
     OR Clone this repository:
-     https://github.com/roladn/laravel-sentinel-crud-starter.git
+     https://github.com/roladn/laravel-qr-code-login.git
 
 Extract it in www(or htdocs if you using XAMPP or MAMP) folder and put it for example in laravelStartersite folder.
 
