@@ -11,6 +11,10 @@ class QrLoginController extends Controller
     	
 		return view('auth.QrLogin');
 	}
+	public function indexoption2(Request $request) {
+    	
+		return view('auth.QrLogin2');
+	}
 	public function ViewUserQrCode($value='')
 	{
 		return view('backEnd.users.viewqrcode');

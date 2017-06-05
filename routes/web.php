@@ -13,6 +13,7 @@
 Route::auth();
 Route::get('/', ['uses' => 'HomeController@home']);
 Route::get('qrLogin', ['uses' => 'QrLoginController@index']);
+Route::get('qrLogin-option1', ['uses' => 'QrLoginController@indexoption2']);
 Route::post('qrLogin', ['uses' => 'QrLoginController@checkUser']);
 
 

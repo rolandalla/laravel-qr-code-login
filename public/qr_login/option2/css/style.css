@@ -1,0 +1,117 @@
+
+.thumbnail {
+    border: 0;
+}
+
+#webcodecam-canvas, #scanned-img {
+    background-color: #2d2d2d;
+}
+
+#camera-select {
+    display: inline-block;
+    width: auto;
+}
+
+.btn {
+    margin-bottom: 2px;
+}
+
+.form-control {
+    height: 32px;
+}
+
+.h4, h4 {
+    width: auto;
+    float: left;
+    font-size: 20px;
+    line-height: 1.1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.controls {
+    float: right;
+    display: inline-block;
+}
+
+.well {
+    position: relative;
+    display: inline-block;
+}
+
+.panel-heading {
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+.table-bordered {
+    color: #777;
+    cursor: default;
+}
+
+.table-bordered a:hover {
+    text-decoration: none;
+}
+
+.table-bordered th a {
+    float: right;
+    line-height: 3.49;
+}
+
+.table-bordered td a {
+    float: left;
+}
+
+.table-bordered th img {
+    float: left;
+}
+
+.table-bordered th, .table-bordered td {
+    vertical-align: middle !important;
+}
+
+.scanner-laser {
+    position: absolute;
+    margin: 40px;
+    height: 30px;
+    width: 30px;
+    opacity: 0.5;
+}
+
+.laser-leftTop {
+    top: 0;
+    left: 0;
+    border-top: solid red 5px;
+    border-left: solid red 5px;
+}
+
+.laser-leftBottom {
+    bottom: 0;
+    left: 0;
+    border-bottom: solid red 5px;
+    border-left: solid red 5px;
+}
+
+.laser-rightTop {
+    top: 0;
+    right: 0;
+    border-top: solid red 5px;
+    border-right: solid red 5px;
+}
+
+.laser-rightBottom {
+    bottom: 0;
+    right: 0;
+    border-bottom: solid red 5px;
+    border-right: solid red 5px;
+    JS
+}
+
+#webcodecam-canvas {
+    background-color: #272822;
+}
+#scanned-QR{
+    word-break: break-word;
+}
