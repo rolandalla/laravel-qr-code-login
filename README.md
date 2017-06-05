@@ -100,7 +100,7 @@ And to initial populate database use this:
 
 If you install on your localhost in folder laravelStartersite, you can type on web browser:
 
-	http://localhost/laravelStartersite/public
+	http://localhost/laravel-qr-code-login/public/
 
 OR Run the command " php artisan serv ", and open on the browser the url you get in console :):
 
