@@ -147,7 +147,7 @@ Inspired by Laravel 5.4 and based on:
 <a name="feature8"></a>
 ##How Starter Site is look like
 
-![Qr Code Sacaning](http://i64.tinypic.com/am6s7m.png)
+![Qr Code Sacaning](http://i63.tinypic.com/21l4pbq.png)
 ![Login](http://i64.tinypic.com/23vku8w.png)
 ![Register new user](http://i63.tinypic.com/21jaybp.png)
 ![Admin dashboard](http://i66.tinypic.com/a4bj9l.png)
