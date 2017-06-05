@@ -11,11 +11,65 @@
 	<link href="//cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<link href="css/style.css" rel="stylesheet">
-	<style>
-		body {
+	<!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 84px;
+            }
+
+            .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+            body {
 			padding-top: 70px;
 		}
-	</style>
+        </style>
 	@yield('style')
 </head>
 <body>
@@ -39,8 +93,9 @@
 						<li><a href="{{ url('qrLogin') }}">Qr Login</a></li>
 						<li><a href="{{ url('register') }}">Register</a></li>
 					@else
-						<li><a href="#">{{ Auth::user()->name }}</a></li>
-						<li><a href="{{ url('logout') }}">Logout</a></li>
+						<a href="{{ url('/') }}">Home</a>
+                        <a href="{{url('my-qrcode')}}">My Qr Code</a>
+                        <a href="{{url('user/logout/now')}}">Logout</a>
 					@endif
 				</ul>
 			</div>

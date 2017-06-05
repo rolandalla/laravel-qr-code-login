@@ -20,6 +20,7 @@ Route::post('qrLogin', ['uses' => 'QrLoginController@checkUser']);
         Route::get('dashboard', ['uses' => 'HomeController@dashboard', 'as' => 'home.dashboard']);
         //users
         Route::resource('user', 'UserController');
+        Route::get('user/logout/now', ['uses' => 'Auth\LoginController@logout']);
         Route::get('user/{user}/permissions', ['uses' => 'UserController@permissions', 'as' => 'user.permissions']);
         Route::post('user/{user}/save', ['uses' => 'UserController@save', 'as' => 'user.save']);
         Route::get('user/{user}/activate', ['uses' => 'UserController@activate', 'as' => 'user.activate']);

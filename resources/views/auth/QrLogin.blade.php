@@ -11,7 +11,7 @@ Starter Qr login
       <div class="col-md-2">
       </div>
       <div class="col-md-8">
-      @if( !Sentinel::getUser())
+      @if(!Sentinel::getUser())
           <div class="row">
             <div id="reader" class="center-block" style="width:300px;height:250px">
             </div>
@@ -21,7 +21,7 @@ Starter Qr login
             </div>
           </div>
       @else
-        <h1>Hallo! {{Sentinel::getUser()->name}}</h1>
+        <h1>Hallo! {{Sentinel::getUser()->first_name}}</h1>
       @endif
        </div>
       <div class="col-md-2">

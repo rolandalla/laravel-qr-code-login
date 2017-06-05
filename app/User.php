@@ -84,11 +84,6 @@ class User extends Model implements RoleableInterface, PermissibleInterface, Per
     {
         $this->notify(new ResetPassword($token));
     }
-    public function setFirstNameAttribute($value)
-    {
-        $this->attributes['QRpassword'] = bcrypt($this->email.str_random(40));
-    }
-
     //End change password
 
 
