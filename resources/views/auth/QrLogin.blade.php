@@ -44,7 +44,7 @@ Starter Qr login
                     type: "POST",
                     cache: false,
                     url : "{{action('QrLoginController@checkUser')}}",
-                    data: {data:data},
+                    data: {"_token": "{{ csrf_token() }}",data:data},
                         success: function(data) {
                           console.log(data);
                           if (data==1) {
