@@ -25,9 +25,6 @@ steps:
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
 
-- script: cp .env.example .env 
-  displayName: 'copy .env'
-
 - script:  php artisan key:generate
   displayName: 'generate artisan'
 
