@@ -30,3 +30,14 @@ steps:
 
 - script: phpunit
   displayName: 'Run tests with phpunit'
+
+- task: CopyFilesOverSSH@0
+  inputs:
+    sshEndpoint: ssh testcc_ssh@test.creativ-cult.de
+    #sourceFolder: # Optional
+    #contents: '**' 
+    #targetFolder: # Optional
+    #cleanTargetFolder: false # Optional
+    #overwrite: true # Optional
+    #failOnEmptySource: false # Optional
+    #flattenFolders: false # Optional
